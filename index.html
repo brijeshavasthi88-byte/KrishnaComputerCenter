@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Krishna Computer Center</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    html, body {
+      width: 100%;
+      overflow-x: hidden; /* Allows vertical scrolling, hides sideways scrollbar */
+    }
+
+    /* Section 1: Full-screen Video Hero */
+    .hero {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+    video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: Center;
+      z-index: 10;
+      width: 90%;
+    }
+    .logo {
+      width: 720px;
+      margin-bottom: 15px;
+    }
+    .hero h1 {
+      font-size: 45px;
+      color: #ffffff;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #f0f0f0;
+      text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    }
+
+    /* Section 2 & Below: Normal Scrollable Content */
+    .content-section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .content-section h2 {
+      font-size: 32px;
+      color: #0056b3;
+      margin-bottom: 15px;
+    }
+    .content-section p {
+      font-size: 18px;
+      color: #333333;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .address-section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      text-align: left
+    }
+    .address-section h2 {
+     font-size: 30px;
+     color: #0056b3;
+     margin-bottom: 15px
+    }  
+     .address-section p {
+     font-size: 21px;
+     color: #333333;
+     line-height: 1.6;
+     margin-bottom: 20px;
+
+   
+  </style>
+</head>
+<body>
+
+  <!-- TOP FULL-SCREEN VIDEO SECTION -->
+  <div class="hero">
+    <video autoplay muted loop playsinline>
+      <source src="myvideo.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-content">
+      <img src="logo.png" alt="Krishna Computer Center" class="logo">
+      <h1>Welcome to Krishna Computer Center</h1>
+      <p>Scroll down to explore our courses</p>
+    </div>
+  </div>
+
+  <!-- SCROLLABLE SECTION BELOW THE VIDEO -->
+  <div class="content-section">
+    <h2>About Us</h2>
+    <p>Type your paragraph about Krishna Computer Center right here. You can add as many sentences as you want.</p>
+<h2>Our Course<h2>
+    <p>Basic Computer Course, Tally Prime, Web Designing (HTML/CSS), Typing, and Programming.</p>
+  </div>
+<div class="address-section">
+<h2>EMAIL</h2>
+<b><p>krishnacomputercenter@gmail.com</b></p>
+<h2>ADDRESS</h2>
+<b><p>Rampark extn. Loni Gzb Rana Chock</b>
+
+
+</body>
+</html>
